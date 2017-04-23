@@ -4,6 +4,7 @@
   "description": "CRUD Blog Application for JMC Psy Group",
   "main": "lib/server/app.js",
   "scripts": {
+    "start": "npm run c2js && node lib/server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "c2js": "echo \"Running c2js job...\" && coffee --compile --output lib/ src/ && exit 1"
   },
