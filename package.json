@@ -1,0 +1,19 @@
+{
+  "name": "blog.jmcpsy.tk",
+  "version": "1.0.0",
+  "description": "CRUD Blog Application for JMC Psy Group",
+  "main": "lib/server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "c2js": "echo \"Running c2js job...\" && coffee --compile --output lib/ src/ && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.evennode.com:084d965401b897869b53a5942131f7bf.git"
+  },
+  "author": "lnovotny23@outlook.cz",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.12.5"
+  }
+}
